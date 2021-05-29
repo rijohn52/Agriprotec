@@ -15,7 +15,7 @@ As a solution to this problem,Agriprotec has made a system that tracks,identifie
 There has been a constant rise in the number of attacks by wild animals on lands near forest or such other areas. Primarily agricultural land, which happens to be free food for the invaders.Is there a solution to eradicate this situation?
 
 ## Basic Flowchart of Agriprotec
-![](Images/)
+![](highlevel_flowchart.png)
 
 
 ## Dataset
@@ -35,15 +35,10 @@ When any animal comes within 10m range of Passive Infra Red(PIR) Sensor,it tigge
 
    The Master system uses a deployment of CNN model with accuracy not less than 60% to identify the animal.Based on the animal detected, a repelling mechanism is implemented through a system of speakers which frightens the animals and make them run away.
    
-![](Images/)
+![](complete_flowchart.png)
 ## Establishment of Agriprotec System
 The Agriprotec sensors can be placed near the borders of the farmland attached onto a pole of 3m height and are used to detect the presence of animals, mainly elephants and wild boars.Each sensor placed at a distance of 20m apart.Then the Master system is placed near center of farmarea.
 
 ## Programming language used
 Python 3 is used as the programming language with keras framework using tensorflow backend image recognition.
-
-## Conclusions
-
-
-
 
