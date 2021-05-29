@@ -15,7 +15,7 @@ As a solution to this problem,Agriprotec has made a system that tracks,identifie
 There has been a constant rise in the number of attacks by wild animals on lands near forest or such other areas. Primarily agricultural land, which happens to be free food for the invaders.Is there a solution to eradicate this situation?
 
 ## Basic Flowchart of Agriprotec
-
+![](Images/)
 
 
 ## Dataset
@@ -26,28 +26,24 @@ There has been a constant rise in the number of attacks by wild animals on lands
  https://drive.google.com/drive/u/0/folders/1_2t86MNNSBCuI3Fn7pfVxOHBFFTGI4LZ
 
 
-![](Images/Page_00.png)
-![](Images/Page_01.png)
-
-## 
-
 ## Hardware Used
 
-PIR Sensors,ESP32 CAM,MASTER SYSTEM,AUDIO SPEAKERS
+PIR Sensors,ESP32 CAM,MASTER SYSTEM,AUDIO SPEAKERS.
 
-# Establishment of Agriprotec System
+## Working of Agriprotec System
+When any animal comes within 10m range of Passive Infra Red(PIR) Sensor,it tiggers the external intrupt of the ESP32 CAM and it wakes from deep sleep mode and it captures and transmits a 10sec video stream over WIFI through HTTP protocol,which then is analised by the Master system and indentifies the animal.
+
+   The Master system uses a deployment of CNN model with accuracy not less than 60% to identify the animal.Based on the animal detected, a repelling mechanism is implemented through a system of speakers which frightens the animals and make them run away.
+   
+![](Images/)
+## Establishment of Agriprotec System
 The Agriprotec sensors can be placed near the borders of the farmland attached onto a pole of 3m height and are used to detect the presence of animals, mainly elephants and wild boars.Each sensor placed at a distance of 20m apart.Then the Master system is placed near center of farmarea.
 
+## Programming language used
+Python 3 is used as the programming language with keras framework using tensorflow backend image recognition.
 
-# Programming language used
-Python 3 is used as the programming language with keras framework using tensorflow backend image recognition 
+## Conclusions
 
-# Results 
-
-
-
-
-# Conclusions
 
 
 
