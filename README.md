@@ -14,21 +14,12 @@ As a solution to this problem,Agriprotec has made a system that tracks,identifie
 ## Research Question 
 There has been a constant rise in the number of attacks by wild animals on lands near forest or such other areas. Primarily agricultural land, which happens to be free food for the invaders.Is there a solution to eradicate this situation?
 
+## Basic Flowchart of Agriprotec
+
+
+
 ## Dataset
-An annotated camera-trap dataset of 20 species commonly found in North - America is used for training the model. The dataset contains 15826 images of 20 species namely Agouti, Bird spec, Coiban Agouti, Collared Peccary, Common Opossum, European
-Hare, Great Tinamou, Mouflon, Ocelot, Paca, Red Brocket Deer, Red Deer, Red Fox, Red Squirrel, Roe Deer, Spiny Rat, White Tailed Deer, White-nosed Coati, Wild Boar, and Wood Mouse. The dataset contains a collection of gray-scale and color images. 
 
-The images captured at night are in gray-scales and images captured in daytime are in colored.
-
-Every image contains only one species out of 20 species. 80% of the dataset, i.e., 12660 images is used for training and the rest 20% for testing.
-
-Link to Dataset Repo 
-
-https://data.world/deana/camera-traped-wild-animals-images
-
-or
-
-https://drive.google.com/open?id=14vII7LJP8Hv-Uz4Av5DA33_Hyz95PL0I
 
 
 ![](Images/Page_00.png)
