@@ -42,4 +42,7 @@ The Agriprotec sensors can be placed near the borders of the farmland attached o
 Python 3 is used as the programming language with keras framework using tensorflow backend image recognition.
 Arduino C for ESP32.
 
+## Implementations
+![](circuit.PNG)
+![](elephantdetected.PNG)
 
